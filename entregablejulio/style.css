@@ -1,0 +1,45 @@
+
+.color {
+    color:rgb(255, 0, 179)
+}
+
+p.destacado {
+    color: rgb(241, 117, 0); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+p, h2, h3, .destacado {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(184, 3, 190);
+    text-align: justify;
+    background-color: rgb(253, 253, 236);
+}
+
+.hover:hover {
+    color: rgb(255, 238, 0);
+    background-color: rgb(255, 0, 149);
+    cursor:-webkit-grab;
+}
+
+.enlace {
+    color: rgb(255, 25, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.enlace:visited {
+    color: rgb(78, 0, 122);
+
+}
+
+body {
+    background-color: rgb(255, 233, 159);
+   
+    }
+
+
+ul>li>a {
+    color: rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
