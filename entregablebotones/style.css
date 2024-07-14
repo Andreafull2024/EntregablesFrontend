@@ -1,0 +1,58 @@
+
+body {
+
+    background: linear-gradient(to right, #ff4daf, #ffe551);
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin: 0;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 30%;
+    background-color: rgb(211, 210, 208);
+    border: 5px solid rgb(18, 116, 86);
+    box-shadow: 5px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button1{
+
+    background-color: #fff09e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.button2{
+
+    background-color: #ff43c0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.box1 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff961e;
+    box-shadow: 5px 5px 15px rgba(97, 102, 76, 0.3);
+    visibility: visible;
+}
+
+.hidden {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff961e;
+    box-shadow: 5px 5px 15px rgba(97, 102, 76, 0.3);
+    visibility: hidden;
+}
+
