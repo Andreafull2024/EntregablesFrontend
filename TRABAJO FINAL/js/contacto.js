@@ -16,9 +16,12 @@ btnEnviar.addEventListener("click", (e) => {
     informacion [2] = correo.value;
     informacion [3] = telefono.value;
     informacion [4] = mensaje.value;
-    
-    console.log(`Su nombre es ${informacion[0]} y su apellido es ${informacion[1]}`);
 
-    let blob = new Blob(informacion, { type: "text/plain;charset=utf-8" });
-    saveAs(blob, "contact.txt"); // Guarda la información en un archivo .txt// libreria
+    let contenidoFormateado = informacion.join("\n");
+
+//Crear el Blob con el contenido formateado
+    let blob = new Blob([contenidoFormateado], { type: "text/plain;charset=utf-8" });
+
+// Guarda la información en un archivo .txt// libreria
+    saveAs(blob, "contact.txt"); 
 });

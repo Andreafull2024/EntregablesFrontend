@@ -1,9 +1,10 @@
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
     margin: 0px;
     padding: 0;
-    text-align: center;
+    text-align: left;
     background-color: #fffbc0;
 }
 
@@ -35,18 +36,18 @@ nav ul li a {
 
     margin: 0 15px;
     text-decoration: none;
-    color: #fc9e11;
+    color: #757575;
 
 }
 
 nav ul li a:hover {
 
-     color: red
+     color: #f79a0e;
 }
 
 h1{
     font-size: 20px;
-    margin:20px;
+    margin: 10px 15px;
 }
 .intro  {
     font-size: 30px;
@@ -150,7 +151,7 @@ img {
 .historia p {
     font-size: 10px;
     color: #666;
-
+    margin: 10px 15px;
 }
 
 .parrafo{
