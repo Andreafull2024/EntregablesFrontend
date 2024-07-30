@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Todito</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="icon" href="./imagenes/mercadito.ico">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./imagenes/LOGO1 DE TODITO.png" alt="De Todito Supermercado">
+        </div>
+        <section class="intro">
+            <p>VENÍ A DESCUBRIRNOS!!</p>
+            <p class="frase">LOS MEJORES PRECIOS LOS ENCONTRÁS ACÁ</p>
+        </section>
+
+        <nav>
+            <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
+            <li><a href="http://127.0.0.1:5500/productos.html">Productos</a></li>
+            <li><a href="http://127.0.0.1:5500/contacto.html">Contacto</a></li>
+           </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <div class="contenedor-formulario">
+            <h2 id="titulo"><span>Dejános tu Comentario...</span></h2>
+
+            <form>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+
+                <div>
+                    <label for="correo">Email:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+
+                <div>
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+
+                <div>
+                    <label for="mensaje"><span>Mensaje:</span></label>
+                    <textarea name="comentario" id="mensaje" rows="10" cols="40" required>Escribe tu Mensaje:</textarea>
+                </div>
+
+                <button id="enviar" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"
+        integrity="sha512-Qlv6VSKh1gDKGoJbnyA5RMXYcvnpIqhO++MhIM2fStMcGT9i2T//tSwYFlcyoRRDcDZ+TYHpH8azBBCyhpSeqw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/contacto.js"></script>
+    <footer>
+        <p>Tel: 02284 - 423245 - Rivadavia y Necochea - Olavarria</p>
+        <p>Todos los derechos reservados © 2024. Una web creada por Rita y Andrea</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    background-color: #fffbc0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffbc0;
+    padding: 10px  20px ;
+    
+}
+
+
+header .logo img {
+    width: 160px;
+}
+
+nav ul  {
+    
+    list-style-type:none;
+    display: flex;
+    margin:0;
+    padding:0;
+    color: #f79a0e;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a {
+
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fc9e11;
+
+}
+
+nav ul li a:hover {
+
+     color: red
+}
+
+h1{
+    font-size: 20px;
+    margin:20px;
+}
+.intro  {
+    font-size: 30px;
+    text-align:center;
+    color: #777777;
+}
+
+.frase {
+    
+    font-size: 15px;
+    color: #66b327;
+}
+
+.icon-cart {
+    width: 40px;
+    height: 40px;
+    stroke: #030303;
+    margin-right: 30px;
+}
+.cart:hover {
+    cursor: pointer;
+    background-color: #66b327;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container-icon {
+    position: relative;
+}
+
+
+.count-products {
+    position: absolute;
+    top: 55%;
+    right: 0;
+    background-color: #000000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos {
+    font-size: 12px;
+}
+
+
+
+
+.ofertas1 {
+    font-size: 12px;
+    background-color: #ffcd61;
+    width: 100%;
+    
+   
+}
+
+.ofertas {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.oferta {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.oferta img {
+    max-width: 210px;
+    border-radius: 20px
+}
+
+
+.historia {
+    padding: px;
+    background-color: #ffcd61;
+    width: 100%;
+    height: 3vh;
+
+   
+}
+
+.historia h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 15px;
+}
+
+.historia p {
+    font-size: 10px;
+    color: #666;
+
+}
+
+.parrafo{
+     font: size 18px;
+     margin: 10px 15px;
+     text-align: justify;
+}
+
+.imagenes {
+    padding: 2px;
+    background-color: #fdcf6c;
+    
+}
+
+.imagenes h2 {
+    font-size: 20px;
+    margin: 10px 15px;
+    color: #333;
+
+}
+
+.galeria {
+
+    display:flex ;
+    flex-direction:row;
+    align-content:space-around;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fffbc0;
+    border-radius: 20px;
+   
+}
+
+.galeria img {
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #ffffff;
+    max-width: 210px;
+    border-radius: 20px;
+    box-shadow: 5px 6px 15px rgba(0, 0, 0, 0.3);   
+   
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffc271;
+    color: #000000;
+}
+
+
