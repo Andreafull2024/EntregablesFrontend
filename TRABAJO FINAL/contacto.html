@@ -21,14 +21,15 @@
 
         <nav>
             <ul>
-            <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
-            <li><a href="http://127.0.0.1:5500/productos.html">Productos</a></li>
-            <li><a href="http://127.0.0.1:5500/contacto.html">Contacto</a></li>
-           </ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
+                <li><a href="http://127.0.0.1:5500/productos.html">Productos</a></li>
+                <li><a href="http://127.0.0.1:5500/contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
-    <div class="contenedor">
+    <div class="contenedor-principal">
+
         <div class="contenedor-formulario">
             <h2 id="titulo"><span>Dejános tu Comentario...</span></h2>
 
@@ -55,21 +56,33 @@
 
                 <div>
                     <label for="mensaje"><span>Mensaje:</span></label>
-                    <textarea name="comentario" id="mensaje" rows="10" cols="40" required>Escribe tu Mensaje:</textarea>
+                    <textarea name="comentario" id="mensaje" rows="10" cols="50"
+                        required>Escribe tu Consulta:</textarea>
                 </div>
 
-                <button id="enviar" type="submit">Enviar</button>
+                <input type="image" id="enviar" src="./imagenes/sobre.png" width="48" height="48" alt="Enviar">
             </form>
         </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"
-        integrity="sha512-Qlv6VSKh1gDKGoJbnyA5RMXYcvnpIqhO++MhIM2fStMcGT9i2T//tSwYFlcyoRRDcDZ+TYHpH8azBBCyhpSeqw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./js/contacto.js"></script>
-    <footer>
-        <p>Tel: 02284 - 423245 - Rivadavia y Necochea - Olavarria</p>
-        <p>Todos los derechos reservados © 2024. Una web creada por Rita y Andrea</p>
-    </footer>
+        <div class="contenedor-ubicacion">
+            <h2>Donde Encontrarnos???</h2>
+            <input type="image" id="enviar" src="./imagenes/camion2.png" width="48" height="35" alt="Enviar-mensaje">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.9377562189443!2d-60.322474824753016!3d-36.89183728191273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959445c5c935074b%3A0xd289b07640dbc700!2sRivadavia%20%26%20Necochea%2C%20Olavarr%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1721861257508!5m2!1ses!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"
+            integrity="sha512-Qlv6VSKh1gDKGoJbnyA5RMXYcvnpIqhO++MhIM2fStMcGT9i2T//tSwYFlcyoRRDcDZ+TYHpH8azBBCyhpSeqw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./js/contacto.js"></script>
+
+        <footer>
+            <p>Tel: 02284 - 423245 - Rivadavia y Necochea - Olavarria</p>
+            <p>Todos los derechos reservados © 2024. Una web creada por Rita y Andrea</p>
+        </footer>
 </body>
 
 </html>
