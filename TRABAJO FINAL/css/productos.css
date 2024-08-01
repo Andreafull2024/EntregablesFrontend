@@ -58,6 +58,10 @@ nav ul li a:hover {
     height: 40px;
    
 }
+#comprarBtn{
+
+    margin-right: 25px;
+}
 
 img {
     max-width: 100%;
