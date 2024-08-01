@@ -4,7 +4,7 @@ let arrProductos = ["Café Arlistan", "Fideos Lucchetti", "Fideos San Agustin", 
     "Harina Leudante Pureza", "Detergente Magistral", "Vino Malbec Estancia Mendoza", "Vino Merlot Estancia Mendoza",
     "Pure de Tomate Molto", "Tomate Triturado", "Yerba Mate Don Omar"];
 let arrPrecio = [2199, 849, 625, 819, 779, 985, 999, 1999, 1999, 599, 1339, 2559];
-let arrCant = [20, 50, 20, 30, 20, 30, 15, 18, 22, 15, 30, 50];
+let arrCant = [2, 5, 2, 3, 2, 3, 15, 18, 22, 15, 3, 5];
 let carrito = {};/*Declaración de un objeto vacío para almacenar los productos seleccionados y sus cantidades.*/
 
 let botones = document.querySelectorAll("button");/* Selección de todos los botones "Añadir al carrito"*/
